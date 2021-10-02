@@ -3,15 +3,15 @@ package ru.job4j.condition;
 public class SqArea {
     public static void main(String[] args) {
 
-        double result1 = SqArea.square(6, 2);
-        System.out.printf("result1 = " + result1);
+        double result1 = SqArea.area(2, 2, 2);
+        System.out.println("result1 = " + result1);
     }
 
-    public static double square(double p, double k) {
+    public static double area(double a, double b, double c) {
+        double pPr = (a + b + c) / 2;
 
-        double h = p / (2 * (k + 1));
-        double l = h * k;
-        double s = l * h;
-        return  s;
+        double res1 = pPr * (pPr - a) * (pPr - b) * (pPr - c);
+        double rsl = Math.sqrt(res1);
+        return rsl;
     }
 }
