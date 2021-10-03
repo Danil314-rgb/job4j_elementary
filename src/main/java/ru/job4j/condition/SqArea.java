@@ -9,9 +9,7 @@ public class SqArea {
 
     public static double area(double a, double b, double c) {
         double pPr = (a + b + c) / 2;
-
-        double res1 = pPr * (pPr - a) * (pPr - b) * (pPr - c);
-        double rsl = Math.sqrt(res1);
+        double rsl = Math.sqrt(pPr * (pPr - a) * (pPr - b) * (pPr - c));
         return rsl;
     }
 }
