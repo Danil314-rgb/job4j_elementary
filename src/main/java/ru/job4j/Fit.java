@@ -8,7 +8,7 @@ public class Fit {
         double heightMan = Fit.manWeight(man);
         System.out.println(heightMan);
 
-        double heightWoman = Fit.manWeight(woman);
+        double heightWoman = Fit.womanWeight(woman);
         System.out.println(heightWoman);
     }
 
