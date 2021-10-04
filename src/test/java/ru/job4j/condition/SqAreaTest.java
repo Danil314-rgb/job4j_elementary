@@ -8,16 +8,16 @@ import static org.junit.Assert.*;
 public class SqAreaTest {
 
     @Test
-    public void whenP6K2sqarea2() {
+    public void whenP6K2Then2() {
         double p = 6;
         double k = 2;
         double out = SqArea.square(p, k);
         double result = 2;
-        Assert.assertEquals(result, out, 0.1 );
+        Assert.assertEquals(result, out, 0.1);
     }
 
     @Test
-    public void whenP5K4sqarea1() {
+    public void whenP5K4Then1() {
         double p = 5;
         double k = 4;
         double out = SqArea.square(p, k);
