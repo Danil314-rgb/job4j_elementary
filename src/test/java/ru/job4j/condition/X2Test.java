@@ -13,8 +13,9 @@ public class X2Test {
         int x = 2;
         int expected = 40;
         int result = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenA1B1C1X1Then3() {
         int a = 1;
@@ -23,8 +24,9 @@ public class X2Test {
         int x = 1;
         int expected = 3;
         int result = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenA0B1C1X1Then2() {
         int a = 0;
@@ -33,8 +35,9 @@ public class X2Test {
         int x = 1;
         int expected = 2;
         int result = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenA1B1C0X1Then2() {
         int a = 1;
@@ -43,8 +46,9 @@ public class X2Test {
         int x = 1;
         int expected = 2;
         int result = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenA1B1C1X0Then1() {
         int a = 1;
@@ -53,6 +57,6 @@ public class X2Test {
         int x = 0;
         int expected = 1;
         int result = X2.calc(a, b, c, x);
-        Assert.assertEquals(expected,result);
+        Assert.assertEquals(expected, result);
     }
 }
