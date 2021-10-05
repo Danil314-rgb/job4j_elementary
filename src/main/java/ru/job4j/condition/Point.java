@@ -1,6 +1,7 @@
 package ru.job4j.condition;
 
 public class Point {
+
     public static void main(String[] args) {
         double result1 = Point.distance(0, 4, 2, 5);
         System.out.println("result2 (0, 4) to (2, 5): " + result1);

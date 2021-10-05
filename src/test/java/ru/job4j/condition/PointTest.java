@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class PointTest {
 
     @Test
-    public void when04to25Then2() {
+    public void when04to25Then2Dot3() {
         int x1 = 0;
         int y1 = 4;
         int x2 = 2;
@@ -40,7 +40,7 @@ public class PointTest {
     }
 
     @Test
-    public void when12to34Then2() {
+    public void when12to34Then2Dot8() {
         int x1 = 1;
         int y1 = 2;
         int x2 = 3;
