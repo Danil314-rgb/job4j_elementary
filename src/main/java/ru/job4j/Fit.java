@@ -1,6 +1,7 @@
 package ru.job4j;
 
 public class Fit {
+
     public static void main(String[] args) {
         short man = 178;
         short woman = 156;
