@@ -1,4 +1,5 @@
 package ru.job4j;
+
 import static ru.job4j.math.MathFunction.*;
 
 public class Calculator {
@@ -9,16 +10,15 @@ public class Calculator {
         System.out.println("Результат расчёта sumAllOperation равен: " + sumAllOperation(30, 20));
     }
 
-    public static  double sumMultiply(double first, double second) {
+    public static double sumMultiply(double first, double second) {
         return sum(first, second) + multiply(first, second);
     }
 
-    public  static  double sumMinusDivision(double first, double second) {
-        return  minus(first, second) + division(first, second);
+    public static double sumMinusDivision(double first, double second) {
+        return minus(first, second) + division(first, second);
     }
 
-    public  static  double sumAllOperation(double first, double second) {
-        return  sum(first, second) + multiply(first, second) + minus(first, second) + division(first, second);
+    public static double sumAllOperation(double first, double second) {
+        return sum(first, second) + multiply(first, second) + minus(first, second) + division(first, second);
     }
-
 }
