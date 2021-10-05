@@ -16,11 +16,11 @@ public class Converter {
         System.out.println("180 rubles are 3. Test result: " + compare);
     }
 
-    public  static float rubleToEuro(float value) {
+    public static float rubleToEuro(float value) {
         return value / 70;
     }
 
-    public  static float rubleToDollar(float value) {
+    public static float rubleToDollar(float value) {
         return value / 60;
     }
 
