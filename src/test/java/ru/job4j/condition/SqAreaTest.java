@@ -25,4 +25,14 @@ public class SqAreaTest {
         Assert.assertEquals(result, out, 0.1);
 
     }
+
+    @Test
+    public void whenP7K2Then2Dot7() {
+        double p = 7;
+        double k = 2;
+        double out = SqArea.square(p, k);
+        double result = 2.7;
+        Assert.assertEquals(result, out, 0.1);
+
+    }
 }
